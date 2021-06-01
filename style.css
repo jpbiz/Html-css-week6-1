@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+:root{
+    --orange:hsl(31, 77%, 52%);
+    --cyan:hsl(184, 100%, 22%);
+    --dark:hsl(179, 100%, 13%);
+    --gray:hsl(0, 0%, 95%);
+}
+
+
+body{
+    background-color: var(--gray);
+}
+
+.container {   
+    display: flex; 
+    height: 500px;
+    max-width: 1000px;
+    margin-left: 15%;
+    margin-top: 25%;
+    overflow: hidden;
+    border-radius: 15px;
+        
+}
+
+.container h1{
+    color: var(--gray);
+    font-family: 'Big Shoulders Display';
+}
+
+.container p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca';
+    font-size: 20px;
+}
+
+.sedans{
+    background-color:  var(--orange);
+    padding:20px ;
+
+}
+
+.sedans header{
+    padding:10px;
+
+}
+
+.sedans h1{
+    padding:10px;
+}
+
+.sedans p{
+    padding:10px;
+}
+
+
+.sedans button{
+    color: var(--orange);
+    border-radius: 20px;
+    border:0px;
+    width: 60%;
+    font-size: 20px;
+    padding: 10px;      
+}
+
+
+.sedans button:hover{
+    background-color: var(--orange);
+    color: white;
+    border-color: black;
+    border: solid;
+
+}
+
+
+.sedans footer{
+    margin-left: 25%;
+    margin-top: 20%;
+}
+.suvs{
+    background-color: var(--cyan);
+    padding:20px ;
+
+}
+
+.suvs header{
+    padding:10px;
+
+}
+
+.suvs h1{
+    padding:10px;
+}
+
+.suvs p{
+    padding:10px;
+}
+
+.suvs footer{
+    margin-left: 25%;
+    margin-top: 20%;
+}
+
+.suvs button{
+    color: var(--cyan);
+    border-radius: 20px;
+    border:0px;
+    width: 60%;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.suvs button:hover{
+    background-color: var(--cyan);
+    color: white;
+    border-color: black;
+    border: solid;
+
+}
+
+.luxury{
+    background-color: var(--dark);
+    padding:20px ;
+
+}
+
+.luxury header{
+    padding:10px;
+}
+
+.luxury h1{
+    padding:10px;
+}
+
+.luxury p{
+    padding:10px;
+}
+
+.luxury footer{
+    margin-left: 25%;
+    margin-top: 20%;
+}
+
+.luxury button{
+    color: var(--dark);
+    border-radius: 20px;
+    border:0px;
+    width: 60%;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.luxury button:hover{
+    background-color: var(--dark);
+    color: white;
+    border-color: black;
+    border: solid;
+
+}
